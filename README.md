@@ -22,3 +22,9 @@
 - kubectl get pod
 - if all is okey then try to run as external ip
 - minikube service mongo-express-service
+
+- chenge the active namespace with:
+- kubectl config set-context --currnt --namespace=my-namespace
+- need to install kubectx
+- suto apt-get install kubectx
+-
